@@ -22,6 +22,6 @@ def ordenamientoBinario(tupla, x):
         print("El número NO está en la tupla.")
 
 
-lista = [list(range(0, 300))]
+lista = list(range(0, 300))
 dato = int(input("Ingrese el número a buscar: "))
 ordenamientoBinario(lista, dato)
