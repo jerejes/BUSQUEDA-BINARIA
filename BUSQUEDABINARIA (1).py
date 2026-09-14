@@ -1,5 +1,5 @@
 
-def ordenamientoBinario(tupla, x):
+def busquedaBinario(tupla, x):
     inicio = 0
     final = len(tupla)-1
     while inicio <= final:
@@ -24,4 +24,4 @@ def ordenamientoBinario(tupla, x):
 
 lista = list(range(0, 300))
 dato = int(input("Ingrese el número a buscar: "))
-ordenamientoBinario(lista, dato)
+busquedaBinario(lista, dato)
